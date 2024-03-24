@@ -1,0 +1,95 @@
+body, html {
+    margin: 0;
+    height: 100%;
+}
+
+.input {
+    margin-top: 1em;
+    padding: 1em;
+    background: #fafafa;
+    box-shadow: 5px 5px 5px #000000;
+    text-align: center;
+    width: 50%;
+    min-width: 300px;
+}
+
+.input-wrapper, .explain-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.explain-wrapper {
+    margin-top: 2em;
+}
+
+.sort {
+    background: #2043de;
+    color: white;
+    border: 0;
+    padding: 1%;
+    display: block;
+    width: 100%;
+    box-shadow: 3px 3px 3px #000000;
+    margin-top: 1em;
+}
+.input input {
+    width: 100%;
+    font-size: large;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    box-sizing: border-box;
+}
+
+.visual-array {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    flex-wrap: wrap;
+}
+
+.element {
+    width: 50px;
+    height: 50px;
+    background: #ededed;
+    text-align: center;
+    line-height: 50px;
+    font-size: x-large;
+    box-shadow: 3px 3px 3px #000000;
+}
+
+.element-wrapper {
+    margin: 0.5em;
+}
+
+.selected, .selected1 {
+    transform: translateY(-10px);
+}
+
+.pointer {
+    position: relative;
+}
+
+.pointer::after {
+    content: "";
+    position: absolute;
+    bottom: -25px;
+    left: calc(50% - 10px);
+    display: block;
+    border-bottom: 10px solid #000000;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+}
+
+.invisible {
+    visibility: hidden !important;
+}
+
+.tmp {
+    transition: all 0.3s ease;
+}
+
+.disabled {
+    background: #909090;
+}

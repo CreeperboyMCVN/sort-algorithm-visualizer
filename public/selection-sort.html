@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js" integrity="sha256-lSjKY0/srUM9BE3dPm+c4fBo1dky2v27Gdjm2uoZaL0=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Selection Sort</title>
+</head>
+<body>
+    <div class="input-wrapper">
+        <div class="input">
+            Enter array elements, seperated by whitespace</br>
+            <input type="text" name="input" id="input">
+            Step delay
+            <input type="number" min="50" value="200" id="stepDelay">
+            <button class="sort">Sort!</button>
+        </div>
+    </div>
+    <div class="visual-array">
+        <div class="element-wrapper">
+            <div class="element">3</div>
+        </div>
+        <div class="element-wrapper">
+            <div class="element">8</div>
+        </div>
+        <div class="element-wrapper">
+            <div class="element">7</div>
+        </div>
+        <div class="element-wrapper">
+            <div class="element">6</div>
+        </div>
+        <div class="element-wrapper">
+            <div class="element">4</div>
+        </div>
+    </div>
+    <div class="explain-wrapper">
+        <div class="explain"></div>
+    </div>
+    <script src="./assets/js/global.js"></script>
+    <script src="./assets/js/selection-sort.js"></script>
+</body>
+</html>

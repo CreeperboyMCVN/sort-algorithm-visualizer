@@ -1,0 +1,19 @@
+{
+  "name": "visual-sort-algorithm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aligorthm",
+    "sort",
+    "visual"
+  ],
+  "author": "_PFL_",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.1"
+  }
+}
